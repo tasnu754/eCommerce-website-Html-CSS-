@@ -169,6 +169,92 @@ p{
 /*-------------Browse Section End-------------*/
 
 
+/*-------------Products Section Start-------------*/
+
+.products{
+    width: 80%;
+    margin: 2rem auto;
+}
+.products>h2{
+    text-align: center;
+    margin: 2rem;
+    font-size: 2.5rem;
+}
+
+.product-cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+}
+
+.product-card{
+    background-color: #F4F5F7;
+    border-radius: 1%;
+    position: relative;
+}
+.product-card>img{
+    width: 100%;
+    border-radius: 1% 1% 0 0;
+}
+
+.details{
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+
+}
+
+.details>h3{
+    font-size: 1.5rem;
+}
+.details>p{
+    color: #898989;
+    font-size: 1rem;
+}
+
+.price{
+    width: 68%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.price p:first-child{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.price p:nth-child(2){
+    font-size: 1rem;
+    text-decoration: line-through;
+    color: #B0B0B0;
+}
+
+.discount{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E97171;
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    position: absolute;
+    right: 8%;
+    top: 6%;
+    color: white;
+}
+
+.green{
+    background-color: #2EC1AC;
+}
+
+.product-cards div:nth-child(4) .discount, .product-cards div:nth-child(6) .discount,
+.product-cards div:nth-child(8) .discount{
+    background-color: #2EC1AC;
+}
+
+/*-------------Products Section End-------------*/
+
+
 /*--------------Head-------------*/
 @media (max-width: 1157px) {
     .header-card{
@@ -192,4 +278,21 @@ p{
         color: white;
         font-weight: bold;
     }
+}
+
+/*------------------Browse-----------*/
+
+@media (max-width: 1300px) {
+
+    .browse-cards{
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+    }
+
+    .browse>p{
+        padding: 0 1.6rem;
+    }
+    
+    
 }
