@@ -46,3 +46,38 @@ a{
 a:hover{
     background-color: rgb(46, 33, 1, 0.2);
 }
+
+.humburge, .cart-humburg{
+    display: none;
+}
+
+@media (max-width: 1021px) {
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .cart-humburg{
+        display: block;
+        font-size: 2rem;
+    }
+    .right-menu-list{
+        display: none;
+    }
+}
+
+
+@media (max-width: 661px) {
+    .nav{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .humburge, .cart-humburg{
+        display: block;
+        font-size: 2rem;
+    }
+    .menu, .right-menu-list{
+        display: none;
+    }
+}
