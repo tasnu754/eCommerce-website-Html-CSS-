@@ -11,6 +11,8 @@ body {
   }
   
 
+/*----------------Nav Start---------------*/
+
 .nav-container{
     width: 100%;
 }
@@ -51,6 +53,54 @@ a:hover{
     display: none;
 }
 
+/*-----------------Nav End---------------------*/
+
+/*-----------------Header Start---------------------*/
+
+.head{
+    position: relative;
+}
+
+.head-img{
+    width: 100%;
+}
+
+.header-card-container{
+    position: absolute;
+    bottom: 20%;
+    right: 10%;
+    padding: 2rem;
+    background-color: #FFF3E3;
+    width: 40%;
+}
+
+.header-card{
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+    width: 80%;
+}
+
+p{
+    font-size: 1.1rem;
+}
+
+.card-title{
+    font-size: 3.3rem;
+    color: #B88E2F;
+}
+
+.btn-buy{
+    padding: 1.5rem 2.5rem;
+    margin-top: 1rem;
+    background-color: #B88E2F;
+    border: navajowhite;
+    color: white;
+    font-weight: bold;
+}
+
+/*-----------------Header End---------------------*/
+
 @media (max-width: 1021px) {
     .nav{
         display: flex;
@@ -79,5 +129,67 @@ a:hover{
     }
     .menu, .right-menu-list{
         display: none;
+    }
+}
+
+
+/*-------------Browse Section Start-------------*/
+
+.browse>h2{
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 2rem;
+}
+.browse>p{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #666666;
+}
+
+.browse-cards{
+
+    display: flex;
+    justify-self: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.card>p{
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+/*-------------Browse Section End-------------*/
+
+
+/*--------------Head-------------*/
+@media (max-width: 1157px) {
+    .header-card{
+        width: 100%;
+        gap: 0.4rem;
+    }
+    .header-card-container{
+        width: 80%;
+        padding: 1rem;
+        bottom: 5%;
+    }
+
+    .card-title, p{
+        font-size: 1rem;
+    }
+    .btn-buy{
+        padding: 0.4rem;
+        margin-top: 0;
+        background-color: #B88E2F;
+        border: navajowhite;
+        color: white;
+        font-weight: bold;
     }
 }
