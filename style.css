@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+
+  }
+  
+
+.nav-container{
+    width: 100%;
+}
+
+.nav{
+    width: 90%;
+    margin: 1.3rem auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu, .right-menu{
+    width: 25%;
+}
+
+.menu-list, .right-menu-list{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.3rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 5%;
+    transition: background-color 0.3s ease-in-out;
+}
+
+a:hover{
+    background-color: rgb(46, 33, 1, 0.2);
+}
