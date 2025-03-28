@@ -252,6 +252,51 @@ p{
     background-color: #2EC1AC;
 }
 
+.inner-div{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 22;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    background-color: rgba(4, 4, 4, 0);
+    transition: opacity 0.3s ease, visibility 0.3s ease, background-color 0.3s ease;
+}
+
+.product-card:hover .inner-div{
+    display: flex;
+    opacity: 1;
+    visibility: visible;
+    background-color: rgba(4, 4, 4, 0.6);
+}
+
+.inner>button{
+    padding: 1rem 4rem;
+    border: none;
+    font-size: 1.1rem;
+    color: #B88E2F;
+    font-weight: 600;
+}
+
+.inner-text{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+    font-size: 1rem;
+}
+
+.inner-text>p>i{
+    margin-right: 0.2rem;
+}
+
+.inner-text>p{
+    color: white;
+}
+
 /*-------------Products Section End-------------*/
 
 
