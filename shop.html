@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="shop.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <title>eCommerce Website</title>
+    <title>Shop</title>
 </head>
 <body>
     <div class="container">
-        <div class="home-container">
+        <div class="shop-container">
 
             <section class="nav-container">
                 <nav class="nav">
@@ -43,44 +44,40 @@
                 </nav>
             </section>
 
-            <section class="header-container">
-                <header class="head">
-                    <img class="head-img" src="./images/header.png" alt="">
-                    <div class="header-card-container">
-                        <div class="header-card">
-                            <p>New Arrival</p>
-                            <h2 class="card-title">Discover Our New Collection</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.</p>
-                            <div><button class="btn-buy">BUY NOW</button></div>
+            <section class="shop-header-container">
+                <div class="shop-header">
+                    <img class="header-img" src="./images/Rectangle 1.png" alt="">
+                    <div class="middle">
+                        <h3>Shop</h3>
+                        <div>
+                            <p>Home</p>
+                            <p>></p>
+                            <p>Shop</p>
                         </div>
                     </div>
-                </header>
+                </div>
             </section>
 
-            <section class="browse-container">
-                <div class="browse">
-                    <h2>Browse The Range</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                    <div class="browse-cards">
-                        <div class="card">
-                            <img src="./images/Mask Group.png" alt="">
-                            <p>Dining</p>
-                        </div>
-                        <div class="card">
-                            <img src="./images/Image-living room.png" alt="">
-                            <p>Living</p>
-                        </div>
-                        <div class="card">
-                            <img src="./images/Mask Group (1).png" alt="">
-                            <p>Bedrooms</p>
-                        </div>
+            <section class="filter-container">
+                <div class="filter">
+                    <div class="left-filter">
+                        <i class="fa-solid fa-sliders"></i>
+                        <p>Filter</p>
+                        <i class="fa-solid fa-braille"></i>
+                        <i class="fa-solid fa-table-list"></i>
+                        <p class="line">Showing 1–16 of 32 results</p>
+                    </div>
+                    <div class="right-filter">
+                        <p>Show</p>
+                        <button>16</button>
+                        <p>Short by</p>
+                        <button>Default</button>
                     </div>
                 </div>
             </section>
 
             <section class="products-container">
                 <div class="products">
-                    <h2>Our Products</h2>
                     <div class="product-cards">
                         <div class="product-card">
                             <img src="./images/image 1.png" alt="">
@@ -252,59 +249,223 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="show-btn">
-                        <button>Show More</button>
-                    </div>
-                </div>
-            </section>
-
-            <section class="rooms-container">
-                <div class="rooms">
-                    <div class="side-container">
-                        <div class="side-text">
-                            <h2>50+ Beautiful rooms inspiration</h2>
-                            <p>Our designer already made a lot of beautiful prototipe of rooms that inspire you</p>
-    
-                            <div><button>Explore More</button></div>
+                        <div class="product-card">
+                            <img src="./images/image 1.png" alt="">
+                            <div class="details">
+                                <h3>Syltherine</h3>
+                                <p>Stylish cafe chair</p>
+                                <div class="price">
+                                    <p>Rp 2.500.000</p>
+                                    <p>Rp 3.500.000</p>
+                                </div>
+                                <div class="discount">-30%</div>
+                            </div>
+                              <div class="inner-div">
+                                <div class="inner">
+                                    <button>Add to cart</button>
+                                    <div class="inner-text">
+                                        <p><i class="fa-solid fa-share-nodes"></i>Share</p>
+                                        <p><i class="fa-solid fa-code-compare"></i>Compare</p>
+                                        <p><i class="fa-solid fa-heart"></i>Like</p>
+                                    </div>
+                                </div>
+                            </div>  
+                        </div>
+                        <div class="product-card">
+                            <img src="./images/Images (7).png" alt="">
+                            <div class="details">
+                                <h3>Leviosa</h3>
+                                <p>Stylish cafe chair</p>
+                                <div class="price">
+                                    <p>Rp 2.500.000</p>
+                                </div>
+                                
+                            </div>
+                            <div class="inner-div">
+                                <div class="inner">
+                                    <button>Add to cart</button>
+                                    <div class="inner-text">
+                                        <p><i class="fa-solid fa-share-nodes"></i>Share</p>
+                                        <p><i class="fa-solid fa-code-compare"></i>Compare</p>
+                                        <p><i class="fa-solid fa-heart"></i>Like</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="./images/Images (4).png" alt="">
+                            <div class="details">
+                                <h3>Lolito</h3>
+                                <p>Luxury big sofa</p>
+                                <div class="price">
+                                    <p>Rp 7.000.000</p>
+                                    <p>Rp 14.000.000</p>
+                                </div>
+                                <div class="discount">-50%</div>
+                            </div>
+                            <div class="inner-div">
+                                <div class="inner">
+                                    <button>Add to cart</button>
+                                    <div class="inner-text">
+                                        <p><i class="fa-solid fa-share-nodes"></i>Share</p>
+                                        <p><i class="fa-solid fa-code-compare"></i>Compare</p>
+                                        <p><i class="fa-solid fa-heart"></i>Like</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="./images/image 4.png" alt="">
+                            <div class="details">
+                                <h3>Respira</h3>
+                                <p>Outdoor bar table and stool</p>
+                                <div class="price">
+                                    <p>Rp 500.000</p>
+                                </div>
+                                <div class="discount">New</div>
+                            </div>
+                            <div class="inner-div">
+                                <div class="inner">
+                                    <button>Add to cart</button>
+                                    <div class="inner-text">
+                                        <p><i class="fa-solid fa-share-nodes"></i>Share</p>
+                                        <p><i class="fa-solid fa-code-compare"></i>Compare</p>
+                                        <p><i class="fa-solid fa-heart"></i>Like</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="./images/Images (10).png" alt="">
+                            <div class="details">
+                                <h3>Grifo</h3>
+                                <p>Night lamp</p>
+                                <div class="price">
+                                    <p>Rp 1.500.000</p>
+                                </div>
+                            </div>
+                            <div class="inner-div">
+                                <div class="inner">
+                                    <button>Add to cart</button>
+                                    <div class="inner-text">
+                                        <p><i class="fa-solid fa-share-nodes"></i>Share</p>
+                                        <p><i class="fa-solid fa-code-compare"></i>Compare</p>
+                                        <p><i class="fa-solid fa-heart"></i>Like</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="./images/Images (5).png" alt="">
+                            <div class="details">
+                                <h3>Muggo</h3>
+                                <p>Small mug</p>
+                                <div class="price">
+                                    <p>Rp 150.000</p>
+                                </div>
+                                <div class="discount">New</div>
+                            </div>
+                            <div class="inner-div">
+                                <div class="inner">
+                                    <button>Add to cart</button>
+                                    <div class="inner-text">
+                                        <p><i class="fa-solid fa-share-nodes"></i>Share</p>
+                                        <p><i class="fa-solid fa-code-compare"></i>Compare</p>
+                                        <p><i class="fa-solid fa-heart"></i>Like</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-card">
+                            <img src="./images/Images (6).png" alt="">
+                            <div class="details">
+                                <h3>Pingky</h3>
+                                <p>Cute bed set</p>
+                                <div class="price">
+                                    <p>Rp 7.000.000</p>
+                                    <p>Rp 14.000.000</p>
+                                </div>
+                                <div class="discount">-50%</div>
+                            </div>
+                            <div class="inner-div">
+                                <div class="inner">
+                                    <button>Add to cart</button>
+                                    <div class="inner-text">
+                                        <p><i class="fa-solid fa-share-nodes"></i>Share</p>
+                                        <p><i class="fa-solid fa-code-compare"></i>Compare</p>
+                                        <p><i class="fa-solid fa-heart"></i>Like</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>                      
+                        <div class="product-card">
+                            <img src="./images/Images (7).png" alt="">
+                            <div class="details">
+                                <h3>Potty</h3>
+                                <p>Minimalist flower pot</p>
+                                <div class="price">
+                                    <p>Rp 500.000</p>
+                                </div>
+                                <div class="discount">New</div>
+                            </div>
+                            <div class="inner-div">
+                                <div class="inner">
+                                    <button>Add to cart</button>
+                                    <div class="inner-text">
+                                        <p><i class="fa-solid fa-share-nodes"></i>Share</p>
+                                        <p><i class="fa-solid fa-code-compare"></i>Compare</p>
+                                        <p><i class="fa-solid fa-heart"></i>Like</p>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                   <div class="img">
-                    <div><img class="img-div" src="./images/Image (1).png" alt=""></div>
-                    <div class="indicator">
-                        <img src="./images/Rectangle 25.png" alt="">
-                        <img src="./images/Indicator.png" alt="">
-                        <img src="./images/Group 13.png" alt="" class="grp">
-                    </div>
-                   </div>
                 </div>
             </section>
 
-            <section class="furniture-container">
-                <div class="furniture">
-                    <p>Share your setup with</p>
-                    <h2>#FuniroFurniture</h2>
+            <section class="pagination-container">
+                <div class="pagination">
+                        <button>1</button>
+                        <button>2</button>
+                        <button>3</button>
+                        <button>Next</button>
+                </div>
+            </section>
 
-                    <div class="grid-container">
-                        <div class="grid-box">
-                            <img src="./images/Rectangle 38.png" alt="">
-                            <img src="./images/Rectangle 40.png" alt="">
-                            <img src="./images/Rectangle 45.png" alt="">
-                            <img src="./images/Rectangle 41.png" alt="">
-                            <img src="./images/Rectangle 25.png" alt="">
-                            <img src="./images/Rectangle 43.png" alt=""> 
-                            <img src="./images/Rectangle 39.png" alt="">
-                            <img src="./images/Rectangle 44.png" alt="">
-                        
+
+            <section class="quality-container">
+                <div class="quality">
+                    <div class="quality-box">
+                        <i class="fa-solid fa-trophy"></i>
+                        <div class="box-text">
+                            <h4>High Quality</h4>
+                            <p>crafted from top materials</p>
                         </div>
-
+                    </div>
+                    <div class="quality-box">
+                        <i class="fa-solid fa-circle-check"></i>
+                        <div class="box-text">
+                            <h4>Warranty Protection</h4>
+                            <p>Over 2 years</p>
+                        </div>
+                    </div>
+                    <div class="quality-box">
+                        <i class="fa-solid fa-handshake"></i>
+                        <div class="box-text">
+                            <h4>Free Shipping</h4>
+                            <p>Order over 150 $</p>
+                        </div>
+                    </div>
+                    <div class="quality-box">
+                        <i class="fa-solid fa-headset"></i>
+                        <div class="box-text">
+                            <h4>24 / 7 Support</h4>
+                            <p>Dedicated support</p>
+                        </div>
                     </div>
                 </div>
             </section>
-
             
-            <hr>
-
             <section class="footer-contaier">
                 <div class="footer">
                     <div class="fotdiv">

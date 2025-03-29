@@ -1,0 +1,164 @@
+/*---------------Filter section Start--------------*/
+
+.filter-container{
+    background-color: #F9F1E7;
+    padding: 1rem;
+}
+
+.filter{
+    width: 85%;
+    margin: 1rem auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-filter{
+    display: flex;
+    width: 30%;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.left-filter :nth-child(2){
+    font-size: 1.2rem;
+}
+
+.line{
+    border-left: 2px solid #9F9F9F;
+    padding-left: 2rem;
+    font-size: 1rem;
+}
+
+.right-filter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 25%;
+    font-size: 1.2rem;
+}
+
+.right-filter button:nth-child(2){
+    border: none;
+    padding: 1rem;
+    background-color: #FFFFFF;
+    color: #9F9F9F;
+    font-size: 1rem;
+}
+.right-filter button:nth-child(4){
+    border: none;
+    padding: 1rem 3rem;
+    background-color: #FFFFFF;
+    color: #9F9F9F;
+    font-size: 1rem;
+}
+
+/*---------------Filter section End--------------*/
+
+
+
+/*---------------Shop Header section Start--------------*/
+
+.shop-header{
+    width: 100%;
+    position: relative;
+        /* border: 2px solid red; */
+    
+}
+
+.header-img{
+    width: 100%;
+    
+
+}
+
+.middle{
+    position: absolute;
+    top: 35%;
+    left: 45%;
+    
+}
+.middle h3{
+    font-size: 3rem;
+    font-weight: 500;
+}
+
+.middle div>p{
+    font-size: 1.1rem;
+}
+
+.middle div{
+    margin-top: 0.7rem;
+    display: flex;
+    gap: 1rem;
+}
+.middle div p:nth-child(1), .middle div p:nth-child(2){
+    font-weight: 600;
+}
+
+/*---------------Shop Header section End--------------*/
+
+
+/*---------------Pagination section Start--------------*/
+.pagination-container{
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.pagination button{
+    padding: 1rem 1.4rem;
+    border: none;
+    font-size: 1rem;
+    background-color: #F9F1E7;
+    border-radius: 10%;
+    margin: 0 1rem;
+}
+
+.pagination button:first-child{
+    background-color: #B88E2F;
+    color: white;
+}
+
+/*---------------Pagination section End--------------*/
+
+
+/*---------------Quality section Start--------------*/
+
+.quality-container{
+    background-color: #F9F1E7;
+    
+}
+
+.quality{
+    width: 85%;
+    margin: 0 auto;
+    padding: 6rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.quality-box{
+    display: flex;
+    align-items: center;
+    gap: 0.7rem;
+
+}
+
+.fa-solid{
+    font-size: 60px;
+}
+
+.box-text{
+    font-size: 1.2rem;
+    color: #898989;
+
+}
+.box-text :first-child{
+    font-size: 1.5rem;
+    margin-bottom: 0.4rem;
+    font-weight: 500;
+    color: #242424;
+}
+
+/*---------------Quality section End--------------*/
