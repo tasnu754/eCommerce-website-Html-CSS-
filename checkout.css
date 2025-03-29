@@ -1,0 +1,100 @@
+.bill{
+    width: 80%;
+    margin: 4rem auto;
+    display: flex;
+    gap: 4rem;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    width: 608px;
+}
+.form h3{
+    font-size: 2.2rem;
+}
+.form div{
+    display: flex;
+    gap: 2rem;
+}
+input, select{
+    width: 80%;
+    height: 50px;
+    border-radius: 5%;
+    border: 1px solid #9F9F9F;
+    display: block;
+    margin-top: 1rem;
+}
+
+.fname, .lname{
+    width: 100%;
+}
+
+input::placeholder, select{
+    padding-left: 2rem;
+    color: #9F9F9F;
+}
+
+label{
+    display: block;
+    font-size: 1rem;
+}
+
+.up div{
+    display: flex;
+    justify-content: space-between;
+    gap: 17rem;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.up{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-weight: 300;
+}
+.up div:first-child{
+    display: flex;
+    justify-content: space-between;
+    gap: 17rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.tot{
+    font-size: 1.2rem;
+    color: #B88E2F;
+    font-weight: 500;
+}
+
+.right-side{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    font-size: 1rem;
+    font-weight: 300;
+    margin-bottom: 2rem;
+}
+
+.rr{
+    width: 500px;
+}
+.right-side p:nth-child(2), .right-side ul:nth-child(3), .right-side ul:nth-child(4){
+    color: #9F9F9F;
+}
+
+.ul{
+    list-style:circle;
+}
+
+.order{
+    padding: 1rem 4rem;
+    font-size: 1rem;
+    background-color: white;
+    border: 1px solid black;
+    
+}
+.order a{
+    font-size: 1.2rem;
+}
